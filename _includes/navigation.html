@@ -1,0 +1,46 @@
+<header id="top-header" class="col-lg-10 col-sm-12">
+    <svg id="menu-trigger" class="icon icon-menu visible-xs" viewBox="0 0 32 32" data-effect="st-effect">
+        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-menu"></use>
+    </svg>
+    <a href="{{ site.baseurl }}/" id="logo-header" class="logo-header logo-light"></a>
+    <nav class="st-menu st-effect" id="menu">
+        <div class="logo-navbar logo-dark visible-xs"></div>
+        <ul>
+            <li><a {% if page.permalink == '/' %} class="current" {% endif %} href="{{ site.baseurl }}/">Home</a>
+            </li>
+            <li><a {% if page.permalink == '/blog/' %} class="current" {% endif %} href="{{ site.baseurl }}/blog/">Blog</a>
+            </li>
+            <!-- <li><a href="#">Schedule</a>
+            </li> -->
+            <li><a {% if page.permalink == '/events/' %} class="current" {% endif %} href="{{ site.baseurl }}/events/">Events</a>
+            </li>
+
+            <!--DevFest-->
+            <li><a {% if page.permalink == '/devfest/' %} class="current" {% endif %} href="{{ site.baseurl }}/devfest/">DevFest</a>
+            </li>
+            
+            <!--Women-->
+            <!-- <li><a {% if page.permalink == '/women/' %} class="current" {% endif %} href="{{ site.baseurl }}/women/">GDG Women</a>
+            </li> -->
+
+            <!-- Code Pursuit -->
+            <li><a {% if page.permalink == '/coderumble/' %} class="current" {% endif %} href="{{ site.baseurl }}/coderumble/">Code Rumble</a>
+            </li> 
+
+            
+            <li><a {% if page.permalink == '/team/' %} class="current" {% endif %} href="{{ site.baseurl }}/team/">Team</a>
+            </li>
+            
+            
+        </ul>
+        <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
+            <!-- <li><a href="#">Buy tickets</a>
+            </li> -->
+            <li><a href="{{ site.c4pUrl }}" target="_blank">Become a speaker</a>
+            </li>
+        </ul>
+        <span id="buy-tickets-button"  class="btn btn-primary waves-element waves-button waves-light waves-will-raise pull-right hidden-xs hidden-sm hidden">
+            <a href="{{ site.c4pUrl }}" target="_blank">Become a speaker</a>
+        </span>
+    </nav>
+</header>

@@ -1,0 +1,82 @@
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
+
+
+# Site settings
+title: GDG Gaborone
+email: info@gdggaborone.org
+description: "Google Developer Group Gaborone"
+baseurl: ""
+url: "http://gdgreviews.github.io/"
+permalink: /blog/:title
+googleAnalyticsTrackingId: ""
+googleAnalyticsSiteUrl: "http://gdgreviews.github.io"
+googleGroupMailingList : ""
+
+#DevFest Location 
+eventLocationName : "University of Botswana"
+eventLocationAddress : "4775 Notwane Rd, Gaborone"
+eventStartTime : "2:30 pm"
+eventEndTime : "2:30 pm"
+
+#CodeRumble Location
+eventLocationName : "University of Botswana"
+eventLocationAddress : "4775 Notwane Rd, Gaborone"
+eventStartDate : "5:30 pm"
+eventEndDate : "1:00 pm"
+eventLocationNameWTMHack : "WTM Hack"
+eventLocationAddressWTMHack : "4775 Notwane Rd, Gaborone"
+
+#Hackathon Location
+eventPlaceCoordinates : "-24.6620885,25.9313522"
+mapCenterCoordinates : "-24.6620885,25.9313522"
+mapMobileCenterCoordinates : "-24.6620885,25.9313522"
+
+#Tweets feed
+twitterHashTag: "gdggaborone"
+twitterHashTagDevFest: "bwdevfest16"
+twitterHashTagCodeRumble: "bwcoderumble16"
+twitterHashTagWTMHack: "wtmhack16"
+#twitterFeed :
+
+# Subscribe
+subscribeAction: "http://google.us8.list-manage.com/subscribe?u=837da598d96df27f94c5853c8&id=857aec20f5&orig-lang=1"
+
+# Documents
+c4pUrl: "http://goo.gl/Y1uhch"
+c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+
+# Head
+metaKeywords: "event,code,gdg,gdggaborone,devfest,google,programming,android,chrome,developers"
+twitterAccount: "@gdggaborone"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Header
+eventDate: "Google Developer Group Gaborone"
+typeoutTextValues: '"Gaborone","Android","Apps","AngularJS","Progressive Web Apps","Polymer","Maps","Firebase"'
+
+# About Event Block
+eventName: "GDG Gaborone"
+
+# Team Block
+aboutUs: Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences.
+
+# Speakers List Block
+showSessions: false
+thumbnailsFolder: /img/speakers/
+
+# Footer
+gplusFollowUsUrl: "https://plus.google.com/+GdgGaboroneOrg"
+twitterFollowUsUrl: "https://twitter.com/gdggaborone"
+fbFollowUsUrl: "https://www.facebook.com/gdggaborone/"
+youtubeFollowUsUrl: "https://www.youtube.com/channel/UCkhG2i8mh0nBc25GUZpdjzg"
+githubFollowUsUrl: "https://github.com/officialgdggaborone"
+
+
+# Blog
+blogCommentsEnabled: true
+discusShortName: "gdggabs"
